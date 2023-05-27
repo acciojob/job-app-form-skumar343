@@ -7,7 +7,41 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form action="form.php" method="post">
+		<div>
+			<label for="name">name*</label>
+			<input type="text" name="name" id="name" placeholder="enter your name" required  >
+		</div>
+		<div>
+			<label for="Email">Email*</label>
+			<input type="email" name="email" id="email" placeholder="enter your email " required>
+			<div>
+				<label for="gender">Gender*</label>
+				<input type="radio" name="gender">male
+				<input type="radio" name="gender">female
+			</div>
+			<div>
+				<label for="laptops brand">laptops brand</label>
+				Apple:<input type="checkbox"> 
+				Asus:<input type="checkbox">
+				HP:<input type="checkbox"
+			</div>
+			<div>
+				<label for="age">Age*</label>
+				<input type="number" name="age" id="age" required>
+			</div>	
+				<div>
+					<label for="DOB">DOB*</label>
+					<input type="datetime-local" name="DOB" id="DOB" required>
+				</div>
+				<div>
+					<label for="password">password*</label>
+					<input type="password" name="password" id="password" required>
+				</div>
+				<div>
+					<input type="submit">
+				</div>
+		</div><!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
 
